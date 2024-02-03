@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Tin2100.github.io/react-app/static/css/main.fe8ce5ba.css",
-    "main.js": "/Tin2100.github.io/react-app/static/js/main.c77cc511.js",
-    "static/media/logo.png": "/Tin2100.github.io/react-app/static/media/logo.f61aba756bad88454a7c.png",
-    "static/media/blog1.jpg": "/Tin2100.github.io/react-app/static/media/blog1.88b76b39e5b8bc07f272.jpg",
-    "static/media/blog4.jpg": "/Tin2100.github.io/react-app/static/media/blog4.60da1fcb47ff8baeaf54.jpg",
-    "static/media/blog3.jpg": "/Tin2100.github.io/react-app/static/media/blog3.faf0c291931b113130d0.jpg",
-    "static/media/blog11.jpg": "/Tin2100.github.io/react-app/static/media/blog11.a6437527eb070f4f24a0.jpg",
-    "static/media/blog2.jpg": "/Tin2100.github.io/react-app/static/media/blog2.bd7550db5a278835f905.jpg",
-    "static/media/avatar5.jpg": "/Tin2100.github.io/react-app/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
-    "index.html": "/Tin2100.github.io/react-app/index.html",
-    "main.fe8ce5ba.css.map": "/Tin2100.github.io/react-app/static/css/main.fe8ce5ba.css.map",
-    "main.c77cc511.js.map": "/Tin2100.github.io/react-app/static/js/main.c77cc511.js.map"
+    "main.css": "/react-app/static/css/main.fe8ce5ba.css",
+    "main.js": "/react-app/static/js/main.986bcfba.js",
+    "static/media/logo.png": "/react-app/static/media/logo.f61aba756bad88454a7c.png",
+    "static/media/blog1.jpg": "/react-app/static/media/blog1.88b76b39e5b8bc07f272.jpg",
+    "static/media/blog4.jpg": "/react-app/static/media/blog4.60da1fcb47ff8baeaf54.jpg",
+    "static/media/blog3.jpg": "/react-app/static/media/blog3.faf0c291931b113130d0.jpg",
+    "static/media/blog11.jpg": "/react-app/static/media/blog11.a6437527eb070f4f24a0.jpg",
+    "static/media/blog2.jpg": "/react-app/static/media/blog2.bd7550db5a278835f905.jpg",
+    "static/media/avatar5.jpg": "/react-app/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
+    "index.html": "/react-app/index.html",
+    "main.fe8ce5ba.css.map": "/react-app/static/css/main.fe8ce5ba.css.map",
+    "main.986bcfba.js.map": "/react-app/static/js/main.986bcfba.js.map"
   },
   "entrypoints": [
     "static/css/main.fe8ce5ba.css",
-    "static/js/main.c77cc511.js"
+    "static/js/main.986bcfba.js"
   ]
 }
