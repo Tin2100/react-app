@@ -335,3 +335,69 @@ footer {
 .author_avatar img {
     width: 110%;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .posts_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+    .post_thumbnail img {
+        height: 12rem;
+    }
+
+    .post_author_avatar img {
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding-top: 4rem;
+    }
+
+    .footer_categories {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .footer_categories a {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav_container {
+        padding: 0 1rem;
+    }
+
+    .nav_logo {
+        padding-left: 1rem;
+    }
+
+    .nav_menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 2;
+    }
+
+    .nav_menu a {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_toggle-btn {
+        display: block;
+        cursor: pointer;
+    }
+}
