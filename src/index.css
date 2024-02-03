@@ -600,11 +600,14 @@ input, select, textarea {
     animation-delay: 900ms;
    }
 
+   .nav_menu {
+    position: relative;
+    left: 0;
+   }
 
     .nav_menu li a {
         display: block;
         background: var(--color-white);
-        padding: 0.85rem 2.5rem;
     }
 
     .nav_toggle-btn {
