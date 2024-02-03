@@ -176,7 +176,7 @@ nav {
 
 .nav__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
 }
@@ -195,8 +195,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 2rem;
-    position: relative;
-    left: 550px;
+
 }
 
 .nav__toggle-btn {
@@ -601,13 +600,14 @@ input, select, textarea {
    }
 
    .nav_menu {
-    position: relative;
-    left: 0;
+    position: absolute;
+    overflow: hidden;
    }
 
     .nav_menu li a {
         display: block;
         background: var(--color-white);
+        padding: 0.85rem 2.5rem;
     }
 
     .nav_toggle-btn {

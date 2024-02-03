@@ -25,7 +25,7 @@ function Header() {
   <li><Link to= "/logout" onClick={closeNavhandler}> Logout</Link></li>
 </ul>}
 <button className="nav_toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
-<div className="hidden"><FaBars /></div>
+  <div className="hidden"><FaBars /></div>
 </button>
     </div>
    </nav>
