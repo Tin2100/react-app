@@ -365,7 +365,8 @@ footer {
     .footer_categories a {
         width: 100%;
         text-align: center;
-        margin-bottom: 1rem;
+        width: 200px;
+        display: block;
     }
 }
 
