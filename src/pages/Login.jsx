@@ -1,34 +1,35 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   const [userData, setUserData] = useState({
+    
     email: '',
-    password: ''
+    password: '',
+
+
   })
 
   const changeInputHandler = (e) => {
-    setUserData(prevState => {
-      return {...prevState, [e.target.name]: e.target.value}
-    })
+   setUserData(prevstate => {
+    return {...prevstate, [e.target.name]: e.target.value}
+   })
   }
   return (
-    <section className='regsiter'>  
-      <div className="container ">
-        <h2>Sign in</h2>
-        <form className='form register_form'>
-          <p className="form_error-message">This is an error message</p>
-
-          <input type='text' placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler}/>
-
-          <input type='password' placeholder='Password' name='password' value={userData.password} onChange={changeInputHandler}/>
-
-          <button type='submit' className='btn primary'>Login</button>
+  <section className="login">
+    <div className="container">
+      <h2>Sign In</h2>
+      <form className="form Login__form">
+        <p className="form__error-message">This is an error message</p>
+         <input type="text" placeholder='Email' name='email' value={userData.email} onChange=
+        {changeInputHandler}/>
+         <input type="password" placeholder='password' name='password' value={userData.password} onChange=
+        {changeInputHandler}/>
+        <button type="submit" className='btn primary'>Login</button>
         </form>
-
-        <small>no account? <Link to='/register'>Sign up</Link></small>
-      </div>
-    </section>
+        <small>Don't have an account? <Link to="/register">sign up</Link></small>
+    </div>
+  </section>
   )
 }
 

@@ -1,40 +1,35 @@
 import React from 'react'
-import PostAuthor from '../Components/PostAuthor';
-import { Link } from 'react-router-dom';
-import Thumbnail from '../images/blog11.jpg';
+import PostAuthor from '../Components/PostAuthor'
+import { Link } from 'react-router-dom'
+import Thumbnail from '../images/blog2.jpg'
 
 const PostDetail = () => {
   return (
-      <section className='post-detail'>
-        <div className="container post-detail_container">
-          <div className="post-detail_header">
-            <PostAuthor />
-            <div className="post-detail_buttons">
-              <Link to={`/posts/werwer/edit`} className='btn sm primary'>Edit</Link>
-              <Link to={`/posts/werwer/delete`} className='btn sm danger'>Delete</Link>
-            </div>
-          </div>
-          <h1>This is the post title</h1>
-          <div className="post-detail_thumbnail">
-            <img src={Thumbnail} alt="" />
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero accusantium commodi reprehenderit cumque consequatur delectus exercitationem vel quos ad minus aliquam eum voluptatum soluta, est eius quia fuga dignissimos repellendus!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore, id numquam odit voluptatem amet recusandae sint ex earum. Eius enim repudiandae, omnis doloremque, consequuntur unde inventore voluptate harum veniam eaque tenetur rerum quidem culpa voluptates quisquam in dolore ad sequi nostrum itaque nemo? Eligendi soluta aspernatur fugiat facere consequuntur dolores dolorem architecto, atque porro.
-
-          </p>
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque facere, quidem reiciendis cupiditate hic mollitia, laboriosam expedita minima omnis, optio ullam ab dicta quisquam! Quis laudantium officia, repudiandae ratione harum eum odit tenetur inventore atque. Deserunt natus, autem iure id sequi, quisquam eaque aperiam nam architecto atque pariatur ad cumque quo in molestiae dolores cupiditate. Itaque est corporis ipsam doloremque magni ea? Hic voluptatem ad numquam, eum, quam omnis distinctio officia debitis corporis voluptatibus, animi amet ratione fugiat tempora dignissimos repellat aperiam eligendi nihil? Sapiente, minima quo mollitia corrupti quisquam accusantium veritatis incidunt dignissimos quia quis distinctio sed ducimus temporibus, rerum qui sunt molestiae aliquam. Voluptatum optio nam quas facilis!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur animi debitis cumque harum omnis temporibus numquam dignissimos unde nostrum? Quo expedita aut aliquid porro deleniti. Atque a repudiandae dicta, sapiente ratione perspiciatis eius nesciunt repellat assumenda veritatis ad sunt omnis ex in et quo laborum id officia! Dolorem quasi quibusdam amet at explicabo nesciunt earum totam perspiciatis est facere! Quaerat non deserunt vero amet minus qui labore saepe laboriosam repellendus delectus id nostrum quam voluptas animi iste nobis, dignissimos fuga in ipsam similique. Ad fugit enim nemo voluptatum necessitatibus numquam itaque! Officia omnis odit ratione numquam vel fugiat voluptas, dolorum eius consequuntur maiores nobis quaerat! Iusto ipsam dolorem, minima illum asperiores, molestias debitis labore quae provident eius doloremque voluptate. Laborum, eligendi.
-        </p>
+    
+    <section className="post-detail">
+      <div className="container post detail__container">
+         <div className="post-detail_header">
+          <PostAuthor/>
+         <div className="post-detail__buttons">
+          <Link to={`/posts/werwer/edit`} className='btn sm primary'>Edit</Link>
+          <Link to={`/posts/werwer/delete`} className='btn sm danger'>Delete</Link>
+          
         </div>
+     </div>
+     <h1>Lorem ipsum</h1>
+     <div className="post-detail__thumbnail">
+      <img src={Thumbnail} alt="" />
+     </div>
+     <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam, sequi voluptate esse atque recusandae temporibus officia, est, itaque voluptas enim! Dolorem numquam corporis voluptas! Quis, mollitia, iste id eos corrupti modi quia esse nam temporibus omnis in odit! Unde a totam nesciunt enim perferendis quis adipisci tempora at culpa, molestiae explicabo, corporis laborum nemo delectus atque voluptate rem error! Dolorum commodi laborum eos saepe consectetur! Sed dicta molestiae laborum laboriosam eos officia beatae deleniti nisi perferendis, repellendus velit cupiditate eius sit blanditiis vero error accusamus porro corrupti amet? Voluptatem enim quam saepe accusantium consequuntur consectetur, asperiores atque voluptas nihil facilis expedita similique molestias aperiam vero esse, voluptate tenetur nisi tempora eligendi quae reiciendis placeat! Voluptas dolores, nam dicta aliquid maiores molestiae non quis in, dignissimos unde voluptate, iure placeat rerum fugiat vel nostrum optio consectetur expedita amet necessitatibus. Corporis, voluptatibus vero, sequi voluptate soluta necessitatibus eos ipsa magnam beatae, officia quisquam adipisci doloribus nisi laboriosam rerum qui minima excepturi animi. Laboriosam nemo molestias eaque deserunt explicabo harum id sint veritatis sequi, ut assumenda numquam nisi dolorem. Dicta aut voluptatibus animi itaque odit saepe dolores aliquam blanditiis? Laborum quis ut rerum, nihil voluptas facere eligendi illo deleniti earum maiores ea rem minima voluptatum dolores error perspiciatis iure fugit possimus quisquam quas molestias nisi explicabo dolorum. Inventore ipsam, molestiae amet provident sapiente corrupti ad cum enim ullam velit voluptate modi natus culpa beatae, asperiores tempore expedita iusto delectus recusandae nobis magni perferendis nemo mollitia illo. Placeat quibusdam eos voluptatem aperiam, porro vitae dolores ipsa, fuga optio facilis consequatur odit corporis itaque? Omnis, illum ipsum ab quod eligendi nisi obcaecati odio, quibusdam nihil delectus rem neque quam repellat harum expedita, suscipit natus deleniti quaerat incidunt! Magni provident aliquam natus velit, explicabo, nobis, odio enim quae nam ipsa id? Nulla mollitia quam voluptatum?
+     </p>
+     <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero impedit doloribus repellendus laudantium porro temporibus, maxime dignissimos deleniti tenetur quod fuga perspiciatis aliquid placeat assumenda, excepturi rerum ipsa nemo veniam amet ipsum? Sint quaerat dolores voluptas consequatur cumque eaque architecto, necessitatibus unde! Illo, rerum? Eaque enim cumque provident nostrum doloribus itaque veritatis molestias nulla nihil, sapiente sequi deserunt, voluptates amet quos a ea! Eos officiis placeat natus quibusdam, voluptatem, blanditiis quia aut illo corrupti a omnis saepe voluptatum repudiandae consectetur fugiat! Vel magni, suscipit aliquid quasi cum eaque voluptas itaque nisi nostrum fugit aspernatur reiciendis quidem porro harum tenetur quaerat. Obcaecati iusto quam sapiente consectetur, nulla, fuga, velit quis ad magni sunt aspernatur numquam. Nulla nisi molestiae quae illo facere corporis suscipit voluptate consequatur impedit blanditiis, accusantium rem at commodi animi facilis porro soluta mollitia laudantium vitae autem velit voluptatem tempore reprehenderit accusamus! Tempore corporis, inventore sint esse obcaecati maxime, aperiam cum dicta pariatur soluta, maiores commodi? Harum voluptate, voluptatem dolor omnis impedit quibusdam inventore odio quis nesciunt hic exercitationem iste cum dolores voluptatum quia provident, deleniti accusantium saepe? Sequi quisquam vero impedit quia beatae eum veniam quidem culpa dolores fugit officiis laboriosam possimus officia, odit ratione error vel accusantium cum. Quae, nulla a, veritatis dolorum doloribus exercitationem illum nisi suscipit vel libero, cupiditate recusandae incidunt? Velit voluptatum magnam esse commodi fugiat.
+     </p>
+      </div>
 
-      </section>
-    )
+    </section>
+  )
 }
 
 export default PostDetail

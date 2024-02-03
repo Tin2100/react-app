@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import PostItem from './PostItem'
+import PostItem from '../Components/PostItem'
 import { DUMMY_POSTS } from '../data'
 
 

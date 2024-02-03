@@ -1,18 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Avatar from '../images/avatar1.jpg';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Avatar from '../images/avatar1.jpg'
 
 const PostAuthor = () => {
   return (
-    <Link to={`/posts/users/asdf`} className='post_author'>
-      <div className="post_author_avatar">
-          <img src={Avatar} alt="" />
-      </div>
-      <div className="post_auhtor_details">
-        <h5>by: Earnest Strong</h5>
-        <small>Just now</small>
-      </div>
-    </Link>
+ <Link to={`/posts/users/sdfsdf`}>
+    <div className="post_author-avatar">
+        <img src={Avatar} alt="" />
+        </div> 
+ <div className="post__author-details">
+      <h5>By: Ernest Strong </h5>
+      <small>Just Now</small>
+ </div>
+ 
+ </Link>
   )
 }
 

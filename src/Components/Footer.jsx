@@ -1,10 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer>
-      <ul className="footer_categories">
+   <footer>
+    <ul className="footer__categories">
         <li><Link to='/posts/categories/Agriculture'>Agriculture</Link></li>
         <li><Link to='/posts/categories/Business'>Business</Link></li>
         <li><Link to='/posts/categories/Education'>Education</Link></li>
@@ -14,10 +14,12 @@ const Footer = () => {
         <li><Link to='/posts/categories/Uncategorized'>Uncategorized</Link></li>
         <li><Link to='/posts/categories/Weather'>Weather</Link></li>
       </ul>
-      <div className="footer_copyright">
-        <small>All Rights Reserved &copy; Suriben. </small>
-      </div>
-    </footer>
+     <div className="footer__copyright">
+      <small>All Rights Reserved &copy; Copyright, Suriben.</small>
+     </div>
+
+
+   </footer>
   )
 }
 

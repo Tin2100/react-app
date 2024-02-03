@@ -1,8 +1,10 @@
 import React from 'react'
 
-const DeletePost = () => {
+function DeletePost() {
   return (
-    <div>DeletePost</div>
+    <div>
+      
+    </div>
   )
 }
 
